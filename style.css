@@ -6,19 +6,18 @@ font-family: 'Poppins',sans-serif;
 text-decoration: none;
 list-style: none;
 }
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100;
-    padding: 35px 12%;
-    background-color: rgba(0, 0, 0, 0.838);
+    width: 100%;
+    padding: 15px 12%;
+    background-color: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
-
+    z-index: 1000;
 }
 .logo{
 font-size: 25px;
